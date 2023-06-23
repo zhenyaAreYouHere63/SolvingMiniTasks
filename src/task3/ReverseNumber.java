@@ -9,7 +9,7 @@ public class ReverseNumber {
                 getReverseOfNumber(scanner.nextInt());
             }
         } catch (Exception e) {
-            System.out.println();
+            System.err.println(e.getMessage());
         }
     }
 

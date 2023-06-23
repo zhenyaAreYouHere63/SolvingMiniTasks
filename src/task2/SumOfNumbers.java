@@ -16,7 +16,7 @@ public class SumOfNumbers {
                 sum += number;
             }
         } catch (Exception e) {
-            System.out.println();
+            System.err.println(e.getMessage());
         }
         System.out.println("Sum of number equals " + sum);
     }
